@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 2.4rem;
+            color: #333
+        }
+        main {
+            background: #fff;
+            border-radius: 5px;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 1.2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            max-width: 48rem;
+            margin: auto;
+            padding: 1.6rem 3.6rem;
+        }
+        h1{
+            text-align: center;
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 1.2rem;
+        }
+        h2{
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0 0 0.5rem 0;
+        }
+        p, ol, ul{
+            margin: 0rem;
+            line-height: 1.5;
+        }
+        /*  QUERIES */
+        @media (max-width: 76em){
+            html{
+                font-size: 90%;
+            }   
+        }
+        @media (max-width: 60em){
+            html{
+                font-size: 85%;
+            } 
+        }
+        @media (max-width: 44em){
+            html{
+                font-size: 70%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main data-testid="test-about-page">
+            <h1>ABOUT ME</h1>
+        <section data-testid="test-about-bio">
+            <h2>Bio</h2>
+            <p>
+            Adeniyi is a passionate web developer who builds clean, responsive user interfaces and enjoys solving problems with code. They are continually improving their JavaScript and backend skills while deploying practical projects that make an impact.    
+            </p>
+        </section>
+        <section data-testid="test-about-goals">
+            <h2>Goals</h2>
+            <ol>
+                <li>Reaching stage 10 in HNG and completing the internship with good grades.</li>
+                <li>Getting a good paying job where I can learn and improve my skills.</li>
+                <li>Deploying websites for notable companies.</li>
+            </ol>
+        </section>
+        <section data-testid="test-about-confidence">
+            <h2>Areas of low confidence</h2>
+            <ul>
+                <li>Javascript frameworks ie React, Vue, Angular.</li>
+                <li>Backend technologies ie PHP, MySQL, Node.js.</li>
+                <li>Using the command line to operate</li>
+
+            </ul>
+        </section>
+        <section data-testid="test-about-future-note">
+            <h2>Note to future self</h2>
+            <p>
+                Dear Future Me, I hope you have stayed curious and kept learning every day. Remember to balance work with rest, ask for help when you need it, and celebrate small wins. Keep building projects that challenge you and make you proud.
+            </p>
+        </section>
+        <section data-testid="test-about-extra">
+            <h2>Extra thoughts</h2>
+            <p>
+                Always remember that persistence and consistency are key to mastering any skill. Don't be afraid to step out of your comfort zone and take on new challenges. Keep pushing forward, and never lose sight of your passion for technology and innovation.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
